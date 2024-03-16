@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRWM</title>
     <link rel='stylesheet' href='assets/css/style.css' type='text/css' media='all' />
-    <script type="text/javascript" src="assets/js/jquery/jquery.min.js" id="jquery-core-js"></script>
-    <script type="text/javascript" src="assets/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+    <link rel='stylesheet' href='assets/js/swiper/swiper-bundle.min.css' type='text/css' media='all' />
+    <script type="text/javascript" src="assets/js/swiper/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery/jquery-migrate.min.js"></script>
 </head>
 
-<body class="home-page">
+<body class="about-page">
     <header class="main-header">
         <div class="top-bar">
             <div class="site-container">
@@ -39,105 +41,133 @@
         </div>
     </header>
 
-    <main class="home-content">
+    <main class="about-content">
         <section>
-            <div class="site-hero">
-                <div class="site-row site-align-center">
-                    <div class="site-col-6">
-                        <div class="container">
-                            <div class="hero-caption">
-                                <h1>The CORE Collection</h1>
-                                <p>Experience smooth, lightweight underwear innovated for everyday wear.</p>
-                                <div class="hero-btn">
-                                    <a href="shop.html" class="btn" target="_self">SHOP NOW</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="site-col-6">
-                        <div class="hero-image">
-                            <figure>
-                                <img decoding="async" src="assets/images/hero-image.jpg" alt="" class="img-fluid">
-                            </figure>
-                        </div>
-                    </div>
+            <div class="simple-hero">
+                <div class="simple-hero-caption">
+                    <h2>About us</h2>
+                    <p>It all started here</p>
                 </div>
             </div>
         </section>
 
-        <section class="site-row-p50x">
-            <div class="product-cta">
-                <div class="container">
+        <section class="site-row-p70x">
+            <div class="info-block">
+                <div class="info-block-holder">
                     <div class="site-row">
                         <div class="site-col-6">
-                            <div class="product-cta-image">
-                                <figure>
-                                    <img src="assets/images/product-image01.jpg" alt="" class="img-fluid">
-                                </figure>
-                            </div>
-                            <div class="product-cta-caption">
-                                <h2>Boxer Brief</h2>
-                                <div class="product-cta-btn">
-                                    <a href="shop.html">Explore More</a>
-                                </div>
+                            <div class="info-block-content">
+                                <h2>Innovating the past, and <br> advancing the future</h2>
+                                <p>CRWN is setting a new standard of menswear essentials for every body. CRWN is a
+                                    solutions brand empowering a new era of self-acceptance for all body types through
+                                    the use of designs that enhance your natural physique to technical fabrics that feel
+                                    like a second skin.</p>
                             </div>
                         </div>
                         <div class="site-col-6">
-                            <div class="product-cta-galery">
-                                <figure>
-                                    <img src="assets/images/product-image02.jpg" alt="" class="img-fluid">
-                                </figure>
+                            <div class="info-block-image">
+                                <img decoding="async" src="assets\images\product-image02.jpg" class="img-fluid" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
 
         <section>
-            <div class="product-cta product-cta-left">
-                <div class="container">
-                    <div class="site-row">
-                        <div class="site-col-6">
-                            <div class="product-cta-image">
+            <div class="about-gallery">
+                <div class="swiper aboutSlider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slider-image">
                                 <figure>
-                                    <img src="assets/images/product-image04.jpg" alt="" class="img-fluid">
+                                    <img src="assets\images\hero-image.jpg" alt="" class="img-fluid">
                                 </figure>
                             </div>
-                            <div class="product-cta-caption">
-                                <h2>Brief</h2>
-                                <div class="product-cta-btn">
-                                    <a href="shop.html">Explore More</a>
-                                </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-image">
+                                <figure>
+                                    <img src="assets\images\product-image01.jpg" alt="" class="img-fluid">
+                                </figure>
                             </div>
                         </div>
-                        <div class="site-col-6">
-                            <div class="product-cta-galery">
+                        <div class="swiper-slide">
+                            <div class="slider-image">
                                 <figure>
-                                    <img src="assets/images/product-image03.jpg" alt="" class="img-fluid">
+                                    <img src="assets\images\product-image02.jpg" alt="" class="img-fluid">
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-image">
+                                <figure>
+                                    <img src="assets\images\product-image03.jpg" alt="" class="img-fluid">
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-image">
+                                <figure>
+                                    <img src="assets\images\product-image04.jpg" alt="" class="img-fluid">
                                 </figure>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="swiper-next swiper-button-next"></div>
+                <div class="swiper-prev swiper-button-prev"></div>
+            </div>
+        </section>
+
+        <section class="site-row-p70x">
+            <div class="about-form">
+                <div class="about-form-text">
+                    <h2>Submit a request</h2>
+                    <p>We can help answer any questions about our products, shipping, returns, size guides, drop dates,
+                        or
+                        anything else on your mind! Our customer service hours are Monday through Friday, 9am to 6pm
+                        PST.
+                    </p>
+                </div>
+                <div class="about-form-block">
+                    <form action="">
+                        <div class="site-row">
+                            <div class="site-col-6">
+                                <div class="about-contact-form-input">
+                                    <input type="text" placeholder="First name">
+                                </div>
+                            </div>
+                            <div class="site-col-6">
+                                <div class="about-contact-form-input">
+                                    <input type="text" placeholder="Last name">
+                                </div>
+                            </div>
+                            <div class="site-col-6">
+                                <div class="about-contact-form-input">
+                                    <input type="email" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="site-col-6">
+                                <div class="about-contact-form-input">
+                                    <input type="number" placeholder="Phone number">
+                                </div>
+                            </div>
+                            <div class="site-col-12">
+                                <div class="about-contact-form-input">
+                                    <input type="textarea" placeholder="Message">
+                                </div>
+                            </div>
+                            <div class="site-col-12">
+                                <div class="about-contact-form-submit">
+                                    <input type="submit" value="Send Request">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
 
-        <section class="site-row-p50x">
-            <div class="page-bottom-cta">
-                <div class="page-bottom-cta-image">
-                    <figure>
-                        <img src="assets/images/page-bottom-cta-image.jpg" alt="" class="img-fluid">
-                    </figure>
-                </div>
-                <div class="page-bottom-cta-caption">
-                    <h2>Jock Strap</h2>
-                    <div class="page-bottom-cta-btn">
-                        <a href="shop.html">Explore More</a>
-                    </div>
-                </div>
-            </div>
-        </section>
     </main>
 
     <div class="site-overlay"></div>
