@@ -1214,6 +1214,8 @@ body.mobile-menu-open {
 }
 
 /* Product */
+
+.related ul.products,
 .shop-page ul.products {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -1223,6 +1225,7 @@ body.mobile-menu-open {
     list-style-type: none;
 }
 
+.related .product .product-item-image,
 .shop-page .product .product-item-image {
     width: 100%;
     height: 400px;
@@ -1232,6 +1235,7 @@ body.mobile-menu-open {
     background-color: #F6F5F3;
 }
 
+.related .product .product-item-image a,
 .shop-page .product .product-item-image a {
     width: 100%;
     height: 100%;
@@ -1240,11 +1244,13 @@ body.mobile-menu-open {
     justify-content: center;
 }
 
+.related .product .product-item-image figure,
 .shop-page .product .product-item-image figure {
     width: auto;
     height: 260px;
 }
 
+.related .product .product-item-image figure img,
 .shop-page .product .product-item-image figure img {
     width: 100%;
     height: 100%;
@@ -1252,26 +1258,31 @@ body.mobile-menu-open {
     object-position: center center;
 }
 
+.related .product .product-item-description,
 .shop-page .product .product-item-description {
     padding: 10px 20px;
 }
 
+.related .product .product-item-title a,
 .shop-page .product .product-item-title a {
     text-decoration: none;
 }
 
+.related .product .product-item-category h5,
 .shop-page .product .product-item-category h5 {
     font-size: 16px;
     color: var(--gray-color);
     margin-bottom: 5px;
 }
 
+.related .product .product-item-title h3,
 .shop-page .product .product-item-title h3 {
     font-size: 18px;
     color: var(--black-color);
     margin-bottom: 5px;
 }
 
+.related .product .product-item-price h4,
 .shop-page .product .product-item-price h4 {
     font-size: 18px;
     font-weight: 500;
@@ -1358,6 +1369,14 @@ body.mobile-menu-open {
 /* Single Product */
 .single-page .product {
     position: relative;
+}
+
+.single-page .product .site-row {
+    margin: 0;
+}
+
+.single-page .product .site-col-6 {
+    padding: 0;
 }
 
 .single-page .product .product-gallery-wrapper {
@@ -1587,6 +1606,14 @@ body.mobile-menu-open {
     color: var(--black-color);
     text-transform: uppercase;
     text-decoration: none;
+}
+
+/* Related products */
+.related h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 35px;
+    text-transform: uppercase;
 }
 
 /* About page */
